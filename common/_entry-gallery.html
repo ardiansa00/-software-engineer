@@ -1,0 +1,9 @@
+{{#if content.related_images}}
+  <section class="image_gallery">
+  {{#each content.related_images}}
+    <a itemprop="image" href="/assets/{{filename}}" class="fancybox lightbox_link" rel="challenge" title="">
+      <img itemprop="thumbnailUrl" src="/assets/thumbs/{{filename}}" />
+    </a>
+  {{/each}}
+  </section>
+{{/if}}

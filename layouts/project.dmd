@@ -1,0 +1,52 @@
+
+{
+  "title": "The_Title",
+  "date": "Creation_date",
+  "layout": "project",
+  "json": {
+    "assignee": "",
+    "blocked": "0",
+    "color": "#99b399",
+    "columnid": "%{column}",
+    "content": "%{short_description}",
+    "datebox": null,
+    "extlink": "%{link}",
+    "laneid": "Project",
+    "leftbox": "",
+    "leftmsg": "",
+    "linkto": "%{link_to}",
+    "position": "%{position}",
+    "priority": "Average",
+    "subtaskdetails": [],
+    /*"subtaskdetails": [{
+      "taskid": "1",
+      "title": "Submitted to CIbSE 2013.",
+      "assignee": "None",
+      "completiondate": "2012-20-12",
+      "assignedtome": 0
+    }, {
+      ...
+      ...
+      ...
+    }],*/
+    "subtasks": "0",
+    "subtaskscomplete": "0",
+    "tags": null,
+    "title": "%{title} (%{platform})",
+    "type": "Project"
+  }
+}
+
+---
+
+[summary:string]
+
+[download_link:string]
+
+[platform:string]
+
+[link:string]
+
+[short_description:string]
+
+[description:md]
